@@ -1,0 +1,17 @@
+export enum EAttachmentClassification {
+  Face = "FACE",
+  GovtId = "GOVTID",
+  FaceAndGovtId = "FACEANDGOVTID",
+  QrCode = "QRCODE",
+  AssetPhoto = "ASSET_PHOTO",
+  AssetVerificationPhoto = "ASSET_VERIFICATION_PHOTO",
+  AssetWitnessPhoto = "ASSET_WITNESS_PHOTO",
+  ServicePhoto = "SERVICE_PHOTO",
+  ServiceVerificationPhoto = "SERVICE_VERIFICATION_PHOTO",
+  ServiceWitnessPhoto = "SERVICE_WITNESS_PHOTO",
+  Other = "OTHER",
+  AssetDocument = "ASSET_DOCUMENT",
+  ServiceDocument = "SERVICE_DOCUMENT",
+  PackagePhoto = "PACKAGE_PHOTO",
+  AttestationDocument = "ATTESTATION_DOCUMNET",
+}

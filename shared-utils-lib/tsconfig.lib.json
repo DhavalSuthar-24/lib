@@ -1,0 +1,11 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "outDir": "../../dist/out-tsc",
+    "declaration": true,
+    "types": ["node"],
+    "target": "es6"
+  },
+  "include": ["**/*.ts", "../shared-base-lib/src/lib/file.ts", "../shared-base-lib/src/lib/filtering/paginate.ts"],
+  "exclude": ["jest.config.ts", "**/*.spec.ts", "**/*.test.ts"]
+}

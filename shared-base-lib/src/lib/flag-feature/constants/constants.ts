@@ -1,0 +1,2 @@
+export const SDK_INTEGRATION = "SDK_INTEGRATION";
+export const TEST_FEATURE_FLAG = "TEST_FEATURE";

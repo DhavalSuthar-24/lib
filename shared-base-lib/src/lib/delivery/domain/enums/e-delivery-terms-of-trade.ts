@@ -1,0 +1,16 @@
+export enum EDeliveryTermsOfTrade {
+  DAT = "dat",
+  DDU = "ddu",
+  DDP = "ddp",
+  DAP = "dap",
+  EXW = "exw",
+  FCA = "fca",
+  FOB = "fob",
+  CIP = "cip",
+  CIF = "cif",
+  CPT = "cpt",
+  CFR = "cfr",
+  DPU = "dpu",
+  EEI = "eei",
+  AESNOEEI = "aesnoeei",
+}

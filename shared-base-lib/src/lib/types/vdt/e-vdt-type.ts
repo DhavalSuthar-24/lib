@@ -1,0 +1,21 @@
+export enum EVdtType {
+  Object = "Object VDT-ID",
+  Event = "Event VDT-ID",
+  Service = "Service VDT-ID",
+  Device = "Device VDT-ID",
+  User = "IVDT-ID",
+  UserDevices = "User Devices VDT-List",
+  UserObjects = "User Objects VDT-List",
+  UserServices = "User Services VDT-List",
+  UserOrganizations = "User Organizations VDT-List",
+  Organization = "OVDT-ID",
+  OrganizationDevices = "Organization Devices VDT-List",
+  OrganizationUsers = "Organization Users VDT-List",
+  OrganizationObjects = "Organization Objects VDT-List",
+  OrganizationServices = "Organization Services VDT-List",
+  Witness = "Witness VDT",
+  ObjectWitness = "Object Witness VDT-List",
+  ServiceWitness = "Service Witness VDT-List",
+  CustomerFile = "Customer File VDT",
+  Action = "Action VDT-ID"
+}
